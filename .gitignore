@@ -106,3 +106,4 @@ $RECYCLE.BIN/
 # Draw.io
 *.drawio.bkp
 tmp/
+site/

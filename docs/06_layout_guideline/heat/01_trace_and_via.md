@@ -70,6 +70,7 @@ IPC-2152 中进行了一些假设：
 /// marimo-embed
     height: 800px
     mode: read
+    include_code: false
     app_width: full
 
 @app.cell

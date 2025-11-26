@@ -1,0 +1,6 @@
+# Cloudflare Pages build command:
+# pip install -r requirements.txt && mkdocs build
+
+mkdocs
+mkdocs-material
+mkdocs-marimo

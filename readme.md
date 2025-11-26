@@ -12,9 +12,10 @@
 
 以下为计算，仿真和可视化所用到的主要工具：
 
-| 名称                                  | 用途                                    |
-| ------------------------------------- | --------------------------------------- |
-| [Elmer FEM](https://www.elmerfem.org) | 多物理仿真器                            |
-| [FreeCAD](https://www.freecad.org/)   | 建模、仿真和可视化                      |
-| [KiCAD](https://www.kicad.org/)       | 电路原理图和电路板绘制，以及 SPICE 仿真 |
-| [marimo](https://marimo.io/)          | 在 mkdoc 中嵌入交互式 Python 代码       |
+| 名称                                                                                         | 用途                                    |
+| -------------------------------------------------------------------------------------------- | --------------------------------------- |
+| [draw.io](https://www.drawio.com/)                                                           | 架构图与部分电路图绘制                  |
+| [Elmer FEM](https://www.elmerfem.org)                                                        | 多物理仿真器                            |
+| [FreeCAD](https://www.freecad.org/)                                                          | 建模、仿真和可视化                      |
+| [KiCAD](https://www.kicad.org/)                                                              | 电路原理图和电路板绘制，以及 SPICE 仿真 |
+| [marimo](https://marimo.io/) / [mkdocs-marimo](https://github.com/marimo-team/mkdocs-marimo) | 交互式 Python 示例                      |

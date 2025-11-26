@@ -1,0 +1,98 @@
+site_name: Electronic-notes
+
+repo_name: ResRipper/Electronic-notes
+repo_url: https://github.com/ResRipper/Electronic-notes
+
+theme:
+    name: material
+    language: zh
+    features:
+        - header.autohide
+
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.path
+        - navigation.top
+
+        - toc.follow
+
+    palette:
+        # Palette toggle for dark mode
+        -   media: "(prefers-color-scheme: dark)"
+            scheme: default
+            toggle:
+                icon: material/brightness-4
+                name: Switch to light mode
+
+        # Palette toggle for light mode
+        -   media: "(prefers-color-scheme: light)"
+            scheme: slate
+            toggle:
+                icon: material/brightness-7
+                name: Switch to dark mode
+
+nav:
+    - 理论:
+        # - 01_theory/RLC/_intro.md
+            # -
+        - 材料相关:
+            - 01_theory/material/piezoelectricity.md
+            # - 01_theory/material/piezoresistive.md
+        - 01_theory/01_number.md
+        # - 01_theory/02_laws.md
+        - 01_theory/04_transfer-func.md
+    #     - 01_theory/05_osc.md
+    - 安全:
+        - 02_safety/01_shock.md
+    #     - 02_safety/02_poison.md
+    - 元器件:
+        - 基本元件:
+            - 03_components/01_basic/00_passive_component_size.md
+            # - 03_components/01_basic/01_resistor.md
+            # - 03_components/01_basic/02_capacitor.md
+        # - 半导体分立元件:
+        # - 放大器:
+        #     - 03_components/03_amplifier/01_opamp.md
+        #     - 03_components/03_amplifier/02_stability.md
+        # - 功率元件:
+        #     - 直流-直流:
+        #         - 转换器（Converter）:
+        #         - 线性稳压器（Linear regulator）:
+        # - 数字元件:
+        # - 模拟/数字信号转换:
+        #     - 模数转换器（ADC）:
+        #     - 数模转换器（DAC）:
+        # - 机电元件:
+        # - 电路保护:
+        #     - 03_components/protection/fuse.md
+    # - 信号协议:
+    # - 常用电路:
+    #     - 电源:
+    #         - 05_common_circuit/power/combine_input.md
+    - 布线指南:
+        - 热量管理:
+            - 06_layout_guideline/heat/01_trace_and_via.md
+    #     - 可制造性:
+    #         - 06_layout_guideline/manufacture/basic.md
+    #     - 功率相关:
+    # - 测量:
+    # - 杂项:
+    #     - 08_tips/pcb_cleaning.md
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
+    - pymdownx.blocks.admonition
+    - pymdownx.blocks.caption
+    - pymdownx.arithmatex:
+        generic: true
+
+plugins:
+    - search
+    - marimo
+
+extra_javascript:
+    - https://unpkg.com/mathjax@4/tex-mml-chtml.js
+
+extra_css:
+    - assets/css/extra.css

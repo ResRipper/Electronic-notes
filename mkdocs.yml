@@ -35,13 +35,13 @@ nav:
     - 理论:
         # - 01_theory/RLC/_intro.md
             # -
-        - 材料相关:
-            - 01_theory/material/piezoelectricity.md
-            # - 01_theory/material/piezoresistive.md
         - 01_theory/01_number.md
         # - 01_theory/02_laws.md
         - 01_theory/04_transfer-func.md
-    #     - 01_theory/05_osc.md
+        # - 01_theory/05_osc.md
+        - 材料相关:
+            - 01_theory/material/piezoelectricity.md
+            # - 01_theory/material/piezoresistive.md
     - 安全:
         - 02_safety/01_shock.md
     #     - 02_safety/02_poison.md

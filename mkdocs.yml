@@ -7,6 +7,8 @@ theme:
     name: material
     language: zh
     features:
+        - content.footnote.tooltips
+
         - header.autohide
 
         - navigation.tabs
@@ -88,8 +90,9 @@ markdown_extensions:
         generic: true
 
 plugins:
-    - search
+    - footnotes
     - marimo
+    - search
 
 extra_javascript:
     - https://unpkg.com/mathjax@4/tex-mml-chtml.js

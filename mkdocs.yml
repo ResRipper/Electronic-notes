@@ -72,8 +72,10 @@ nav:
     #     - 电源:
     #         - 05_common_circuit/power/combine_input.md
     - 布线指南:
-        - 热量管理:
-            - 06_layout_guideline/heat/01_trace_and_via.md
+        - 06_layout_guideline/heat/_intro.md
+            - 06_layout_guideline/heat/heat_dissipation.md
+            - 06_layout_guideline/heat/heat_resistance.md
+            - 06_layout_guideline/heat/trace_and_via.md
     #     - 可制造性:
     #         - 06_layout_guideline/manufacture/basic.md
     #     - 功率相关:

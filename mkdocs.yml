@@ -71,17 +71,24 @@ nav:
     # - 常用电路:
     #     - 电源:
     #         - 05_common_circuit/power/combine_input.md
-    - 布线指南:
-        - 06_layout_guideline/heat/_intro.md
+    - 布线:
+        - 热量管理:
+            - 介绍: 06_layout_guideline/heat/_intro.md
             - 06_layout_guideline/heat/heat_dissipation.md
             - 06_layout_guideline/heat/heat_resistance.md
             - 06_layout_guideline/heat/trace_and_via.md
     #     - 可制造性:
     #         - 06_layout_guideline/manufacture/basic.md
     #     - 功率相关:
+    - 仿真:
+        - FEM:
+            - 介绍: 08_sim/FEM/_intro.md
+            # - 网格: 08_sim/FEM/mesh.md
+            - FEM 示例:
+                - 08_sim/FEM/examples/freecad_current.md
     # - 测量:
     # - 杂项:
-    #     - 08_tips/pcb_cleaning.md
+    #     - 09_tips/pcb_cleaning.md
 
 markdown_extensions:
     - attr_list
@@ -93,7 +100,6 @@ markdown_extensions:
         generic: true
 
 plugins:
-    - footnotes
     - marimo
     - search
 

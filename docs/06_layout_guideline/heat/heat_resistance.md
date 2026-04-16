@@ -12,9 +12,9 @@ $$
 
 热阻、温差与功率的定义和变换规律与电学中的对应概念类似，因此热阻网络常被作为电阻网络进行绘制和计算，热阻的串并联规律也与电阻相同：
 
-- $\Delta T \rArr U$
-- $\theta \rArr R$
-- $P \rArr I$
+- $\Delta T \rightarrow U$
+- $\theta \rightarrow R$
+- $P \rightarrow I$
 
 ## 热阻计算
 
@@ -38,12 +38,7 @@ $$
 
 ### 散热
 
-/// admonition | 参考
-    type: info
-
-    参考[散热](./heat_dissipation.md)一节
-
-///
+> 参考[散热](./heat_dissipation.md)一节
 
 将牛顿冷却定律与热欧姆定律结合，可以得到
 

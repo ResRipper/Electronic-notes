@@ -52,6 +52,7 @@ nav:
             - 03_components/01_basic/00_passive_component_size.md
             # - 03_components/01_basic/01_resistor.md
             # - 03_components/01_basic/02_capacitor.md
+            - 03_components/01_basic/04_ferrite-bead.md
         # - 半导体分立元件:
         # - 放大器:
         #     - 03_components/03_amplifier/01_opamp.md

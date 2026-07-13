@@ -1,8 +1,3 @@
-<!--
- Copyright 2026 ResRipper.
- SPDX-License-Identifier: Apache-2.0
--->
-
 # 铁氧体磁珠
 
 铁氧体磁珠（Ferrite Bead）常用于抑制电源和信号的噪声，形态包括：

@@ -81,13 +81,17 @@ nav:
     #     - 可制造性:
     #         - 06_layout_guideline/manufacture/basic.md
     #     - 功率相关:
+    - 测量:
+        - 网络分析仪:
+            - 07_measure/vna/three_receivers_switchless.md
     - 仿真:
         - FEM:
             - 介绍: 08_sim/FEM/_intro.md
             # - 网格: 08_sim/FEM/mesh.md
             - FEM 示例:
                 - 08_sim/FEM/examples/freecad_current.md
-    # - 测量:
+        # - SPICE:
+        #     - 08_sim/spice/passive_component_modeling.md
     # - 杂项:
     #     - 09_tips/pcb_cleaning.md
 
